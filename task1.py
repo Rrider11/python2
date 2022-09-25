@@ -9,8 +9,10 @@
 print("Введите число от 1 до 7 ")
 day = int(input())
 
-if day <= 5:
+if 0 < day < 6:
     print('Wake up son')
-else:
+elif 5 < day < 8:
     print('all together sleep')
+else:
+    print("its not a weekday")
     
